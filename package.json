@@ -1,0 +1,28 @@
+{
+  "name": "advcom-fullstack-2568",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "fromat": "prettier --write * .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beam2711/advcom-fullstack-2568.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beam2711/advcom-fullstack-2568/issues"
+  },
+  "homepage": "https://github.com/beam2711/advcom-fullstack-2568#readme",
+  "devDependencies": {
+    "prettier": "^3.7.4"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
