@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "fromat": "prettier --write * .js"
+    "fromat": "prettier --write *.js"
   },
   "repository": {
     "type": "git",
