@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "fromat": "prettier --write *.js"
+    "start": "node src/index.js",
+    "fromat": "prettier --write *.js",
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/beam2711/advcom-fullstack-2568#readme",
   "devDependencies": {
+    "nodemon": "^3.1.11",
     "prettier": "^3.7.4"
   },
   "dependencies": {
