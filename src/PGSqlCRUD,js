@@ -1,16 +1,16 @@
+require("dotenv").config();
+
 const express = require('express');
 const Sequelize = require('sequelize');
 const app = express();
-
+// parse incoming requests
 app.use(express.json());
 
-const dbUrl = 'postgres://webadmin:ICK'
+// set db url
+const dbUrl = 'postgres://webadmin:ICKnhr28656@node84738-adv-compro.proen.app.ruk-com.cloud:11735/Books'
 
-const sequelize = new Sequelize('database', 'username', 'password', {
-    host: 'localhost',
-    dialect: 'sqlite',
-    storage: './Database/SQBooks.sqlite'
-});
+// create a connection to the database
+const sequelize = new Sequelize(dbUrl);
 
 const Book = sequelize.define('book', {
     id: {
